@@ -48,7 +48,8 @@ export default defineConfig({
     // include: ['@ant-design/icons-vue']
   },
   // otherwise, may assets 404 or visit with index.html
-  base: '/start-vue/',
+  // base: '/start-vue/',
+  base: '/',
   build: {
     target: 'es2015',
     outDir: 'build',
