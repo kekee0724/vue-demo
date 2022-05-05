@@ -1,0 +1,208 @@
+<template>
+  <div class="kekee body">
+    <div class="header w">
+      <div class="logo">
+        <img src="@/assets/images/logo.png" alt="logo" />
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="#">首页</a></li>
+          <li><a href="#">课程</a></li>
+          <li><a href="#">职业规划</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input type="text" />
+        <button placeholder="输入关键词"></button>
+      </div>
+      <div class="user">
+        <img src="@/assets/images/user.png" alt="user" />
+        qq-lilei
+      </div>
+    </div>
+    <div class="banner">
+      <div class="w">
+        <div class="subnav">
+          <ul>
+            <li>
+              <a href="#">前端开发<span>&lt;</span></a>
+            </li>
+            <li>
+              <a href="#">前端开发<span>&lt;</span></a>
+            </li>
+            <li>
+              <a href="#">前端开发<span>&lt;</span></a>
+            </li>
+            <li>
+              <a href="#">前端开发<span>&lt;</span></a>
+            </li>
+            <li>
+              <a href="#">前端开发<span>&lt;</span></a>
+            </li>
+            <li>
+              <a href="#">前端开发<span>&lt;</span></a>
+            </li>
+            <li>
+              <a href="#">前端开发<span>&lt;</span></a>
+            </li>
+            <li>
+              <a href="#">前端开发<span>&lt;</span></a>
+            </li>
+            <li>
+              <a href="#">前端开发<span>&lt;</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="course">
+          <h2>我的课程表</h2>
+          <div class="bd">
+            <ul>
+              <li>
+                <h4>继续学习 程序语言设计</h4>
+                <p>正在学习-使用对象</p>
+              </li>
+              <li>
+                <h4>继续学习 程序语言设计</h4>
+                <p>正在学习-使用对象</p>
+              </li>
+              <li>
+                <h4>继续学习 程序语言设计</h4>
+                <p>正在学习-使用对象</p>
+              </li>
+            </ul>
+            <a href="#" class="more">全部课程</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="goods w">
+      <h3>精品推荐</h3>
+      <ul>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">Java</a></li>
+      </ul>
+      <a href="#" class="mod">修改兴趣</a>
+    </div>
+    <div class="box w">
+      <div class="hd">
+        <h3>精品推荐</h3>
+        <a>查看全部</a>
+      </div>
+      <div class="bd">
+        <ul class="clearfix">
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+          <li>
+            <img src="@/assets/images/pic.png" alt="pic" />
+            <h4>Angular 2 最新框架+主流技术+项目实战</h4>
+            <div class="info"><span>高级</span> • 1125人在学习</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="w">
+        <div class="copyright">
+          <img src="@/assets/images/logo.png" alt="logo" />
+          <p>
+            学成在线致力于普及中国最好的教育它与中国一流大学和机构合作提供在线课程。
+            <br />
+            © 2017年XTCG Inc.保留所有权利。-沪ICP备15025210号
+          </p>
+          <a href="#" class="app">下载APP</a>
+        </div>
+        <div class="links">
+          <dl>
+            <dt>关于学成网</dt>
+            <dd><a href="#">关于</a></dd>
+            <dd><a href="#">管理团队</a></dd>
+            <dd><a href="#">工作机会</a></dd>
+            <dd><a href="#">客户服务</a></dd>
+            <dd><a href="#">帮助</a></dd>
+          </dl>
+          <dl>
+            <dt>关于学成网</dt>
+            <dd><a href="#">关于</a></dd>
+            <dd><a href="#">管理团队</a></dd>
+            <dd><a href="#">工作机会</a></dd>
+            <dd><a href="#">客户服务</a></dd>
+            <dd><a href="#">帮助</a></dd>
+          </dl>
+          <dl>
+            <dt>关于学成网</dt>
+            <dd><a href="#">关于</a></dd>
+            <dd><a href="#">管理团队</a></dd>
+            <dd><a href="#">工作机会</a></dd>
+            <dd><a href="#">客户服务</a></dd>
+            <dd><a href="#">帮助</a></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="less">
+@import './study.less';
+</style>
+<script lang="ts">
+import { defineComponent } from 'vue'
+import { useStore } from 'vuex'
+
+export default defineComponent({
+  name: 'Setting',
+  computed: {
+    count () {
+      const store = useStore()
+      return store.state.count
+    }
+  }
+})
+</script>

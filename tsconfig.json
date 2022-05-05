@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "jsxFactory": "h",
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/antd-mobile-vue-next/types",
+      "types"
+    ],
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "types": ["node", "vite/client", "mocha", "chai"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@levi-m/core": ["./src/core/index"],
+      "@levi-m/core-ui": ["./src/core-ui/index"],
+      "@levi-a/views": ["./src/apps/views/index"],
+      "@levi-a/mobile": ["./src/apps/mobile/index"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
