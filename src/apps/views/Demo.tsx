@@ -1,63 +1,63 @@
-import { defineComponent, reactive } from "vue"
+// import { defineComponent, reactive } from "vue"
 
-import Toast, {
-  ImagePicker,
-  SegmentedControl,
-  WingBlank
-} from "antd-mobile-vue-next"
+// import Toast, {
+//   ImagePicker,
+//   SegmentedControl,
+//   WingBlank
+// } from "antd-mobile-vue-next"
 
-const data = [{
-  url: 'https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg',
-  id: '2121'
-}, {
-  url: 'https://zos.alipayobjects.com/rmsportal/hqQWgTXdrlmVVYi.jpeg',
-  id: '2122'
-}];
+// const data = [{
+//   url: 'https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg',
+//   id: '2121'
+// }, {
+//   url: 'https://zos.alipayobjects.com/rmsportal/hqQWgTXdrlmVVYi.jpeg',
+//   id: '2122'
+// }];
 
-export const Demo =  defineComponent({
-  name: 'ImagePickerExample',
-  setup(props, {emit, slots}) {
-    const state = reactive({
-      files: data,
-      multiple: false
-    });
-
-
-    const onChange = (files, type, index) => {
-      state.files = files;
-    };
-    const onSegChange = (index) => {
-      state.multiple = index === 1;
-    };
+// export const Demo =  defineComponent({
+//   name: 'ImagePickerExample',
+//   setup(props, {emit, slots}) {
+//     const state = reactive({
+//       files: data,
+//       multiple: false
+//     });
 
 
-    return {
-      state,
-      onChange,
-      onSegChange
-    };
-  },
-  render() {
-    const {files} = this.state;
-    return (
-        <WingBlank>
-          <SegmentedControl
-              values={['切换到单选', '切换到多选']}
-              value={this.state.multiple ? 1 : 0}
-              onChange={this.onSegChange}
-          />
-          <ImagePicker
-              value={files}
-              onChange={this.onChange}
-              onImageClick={(index, fs) => console.log(index, fs)}
-              selectable={files.length < 7}
-              onFail={(msg) => {
-                Toast.fail(msg);
-              }}
-              multiple={this.state.multiple}
-          />
-        </WingBlank>
-    );
-  }
-});
+//     const onChange = (files, type, index) => {
+//       state.files = files;
+//     };
+//     const onSegChange = (index) => {
+//       state.multiple = index === 1;
+//     };
+
+
+//     return {
+//       state,
+//       onChange,
+//       onSegChange
+//     };
+//   },
+//   render() {
+//     const {files} = this.state;
+//     return (
+//         <WingBlank>
+//           <SegmentedControl
+//               values={['切换到单选', '切换到多选']}
+//               value={this.state.multiple ? 1 : 0}
+//               onChange={this.onSegChange}
+//           />
+//           <ImagePicker
+//               value={files}
+//               onChange={this.onChange}
+//               onImageClick={(index, fs) => console.log(index, fs)}
+//               selectable={files.length < 7}
+//               onFail={(msg) => {
+//                 Toast.fail(msg);
+//               }}
+//               multiple={this.state.multiple}
+//           />
+//         </WingBlank>
+//     );
+//   }
+// });
 
