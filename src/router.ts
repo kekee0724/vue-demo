@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
-import { About } from '@levi-a/views'
+import { About, Demo } from '@levi-a/views'
 import { FileUpload } from '@levi-a/mobile'
 import FileUploads from '@levi-a/mobile/FileUpload.vue'
 
@@ -20,18 +20,18 @@ const routes: Array<RouteRecordRaw> = [
     name: 'About',
     component: About
   },
-  // {
-  // path: '/demo',
-  // name: 'demo',
-  // component: Demo
-  //   children: [
-  //     {
-  //       path: 'test',
-  //       name: 'test',
-  //       component: Test
-  //     }
-  //   ]
-  // }
+  {
+    path: '/demo',
+    name: 'demo',
+    component: Demo
+    //   children: [
+    //     {
+    //       path: 'test',
+    //       name: 'test',
+    //       component: Test
+    //     }
+    //   ]
+  }
 ]
 
 const router = createRouter({
