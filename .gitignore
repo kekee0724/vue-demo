@@ -34,3 +34,5 @@ obs.json
 src/generated/
 lib/
 es/
+/yarn.lock
+/package-lock.json
