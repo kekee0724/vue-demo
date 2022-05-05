@@ -1,11 +1,6 @@
 import { defineComponent, reactive } from "vue";
 
-import Toast, {
-  ImagePicker,
-  SegmentedControl,
-  WingBlank,
-} from "antd-mobile-vue-next";
-
+import { Toast } from "antd-mobile-vue-next";
 const data = [
   {
     url: "https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg",
@@ -53,7 +48,7 @@ export const Demo = defineComponent({
           onImageClick={(index, fs) => console.log(index, fs)}
           selectable={files.length < 7}
           onFail={(msg) => {
-            Toast.install(msg);
+            Toast.info(msg);
           }}
           multiple={this.state.multiple}
         />
