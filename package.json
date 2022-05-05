@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "vite --mode development",
-    "build": "vuedx-typecheck . && vite build",
+    "build:bak": "vuedx-typecheck . && vite build",
+    "build": "vue-tsc --noEmit && vite build --mode release",
     "build:beta": "vue-tsc --noEmit && vite build --mode beta",
     "build:release": "vue-tsc --noEmit && vite build --mode release",
     "preview": "vite preview"
